@@ -7,6 +7,10 @@
     font-size: 14px;
 }
 
+body.dark-theme {
+    background-color: #171717;
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -15,6 +19,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .instagram-wrapper {
@@ -43,6 +48,10 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+}
+
+body.dark-theme .group {
+    background-color: #212121;
 }
 
 .group {
@@ -74,6 +83,22 @@ body {
 
 .profile-photo img {
     height: 6rem;
+}
+
+
+body.dark-theme .instagram-login{
+    background-color: rgb(209, 31, 105);
+}
+
+body.dark-theme .link-blue, body.dark-theme .instagram-logout{
+    color: rgb(194, 55, 132);
+}
+
+#switch-theme-bt {
+    border-radius: 3px;
+    margin: 30px;
+    position: absolute;
+    font-size: 12;
 }
 
 .instagram-login {
