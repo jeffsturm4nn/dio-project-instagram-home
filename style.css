@@ -94,11 +94,22 @@ body.dark-theme .link-blue, body.dark-theme .instagram-logout{
     color: rgb(194, 55, 132);
 }
 
+body.dark-theme #switch-theme-bt
+{
+    background-color: rgb(160, 160, 160);
+    color: #171717;
+}
+
 #switch-theme-bt {
-    border-radius: 3px;
-    margin: 30px;
+    border-radius: 7px;
+    margin: 20px 50px 0 70%;
+    padding: 5px;
     position: absolute;
-    font-size: 12;
+    font-size: 9pt;
+    float: right;
+    background-color: black;
+    color: rgb(160, 160, 160);
+    ;
 }
 
 .instagram-login {
